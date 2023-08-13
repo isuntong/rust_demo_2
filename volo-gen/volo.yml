@@ -1,0 +1,10 @@
+entries:
+  default:
+    protocol: thrift
+    filename: volo_gen.rs
+    idls:
+    - source: git
+      repo: git@github.com:isuntong/rust_demo_idl.git
+      lock: baeb3bf8932a8c5590fa0f625fbb00a8e678b98d
+      path: demo/rust_demo_2.thrift
+      keep_unknown_fields: false
